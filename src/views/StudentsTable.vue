@@ -37,7 +37,7 @@ import { StudentDTO } from "@/StudentService";
 import StudentService from "@/StudentService";
 
 @Component
-export default class HomeView extends Vue {
+export default class StudentsTable extends Vue {
   private students: StudentDTO[] = [];
   private newStudent: StudentDTO = { firstName: '', lastName: '', age: 0 };
 
