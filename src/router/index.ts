@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import StudentService from '../views/StudentService.vue'
+import StudentTable from '../views/StudentsTable.vue'
 
 Vue.use(VueRouter)
 
@@ -9,7 +9,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'student',
-    component: StudentService
+    component: StudentTable
   }
 ]
 
